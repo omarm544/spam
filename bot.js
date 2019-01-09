@@ -81,8 +81,36 @@ if (message.content === '!spam') {
       }
 });
 
+client3.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+if (message.content === '!spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) {
+        message.channel.send(`**Credit Spam , Frame , Credit By Omar M. El-Sisy , Farm Credit By Omar M. El-Sisy, ez Farm**[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
 
+client4.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+if (message.content === '!spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) {
+        message.channel.send(`**Credit Spam , Frame , Credit By Omar M. El-Sisy , Farm Credit By Omar M. El-Sisy, ez Farm**[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
 
 
 client.login(process.env.TOKEN);// لا تغير فيها شيء
 client2.login(process.env.TOKEN2);// لا تغير فيها شيء
+client3.login(process.env.TOKEN3);// لا تغير فيها شيء
+client4.login(process.env.TOKEN4);// لا تغير فيها شيء
